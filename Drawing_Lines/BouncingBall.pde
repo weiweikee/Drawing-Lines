@@ -59,7 +59,7 @@ class BouncingBall { // Creating a template for Bouncing ball (Setting Class)
 
   void display() { // setting up circle for display
     noStroke();
-    fill(0);
+    fill(255);
     ellipse(x, y, d, d);
   }
 }
